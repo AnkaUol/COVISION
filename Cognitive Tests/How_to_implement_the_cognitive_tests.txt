@@ -1,0 +1,19 @@
+Note the tests are optimized to be shown on smarpthoen screens, not computer screens! You can make the window on a computer smaller to see, what it would look like on a smartphone screen.
+
+How to run the test in labjs:
+Go to https://labjs.felixhenninger.com/
+In the builder, click on the small arrow next to the save-symbol and select “open”
+Select the respective files with the ending “json”
+
+How to run the tests in SoSciSurvey: https://www.soscisurvey.de/help/doku.php/en:create:questions:labjs
+You can use the provided zip-files or create your own after making changes in labjs: click on the small arrow next to the save-symbol and select “Generic suvey tools…”
+
+Workaround to create different versions of the wordlist test:
+All the scripts and materials are in memory_test_versions
+Requires:
+- as a template zip file that is exported from labjs to be integrated in sosci Survey
+- a csv file with the different wordlists (COVISION_word_lists)
+
+Adapt the js.script “create_exp_versions_2.0.js” according to your own filepaths and names
+Then run it
+This will create one zip file per wordlist which can be directly integrated into sosci survey
